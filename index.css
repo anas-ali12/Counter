@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+#counter{
+  font-size: 60px;
+  font-family: monospace;
+}
+button{
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: bold;
+}
+#resetBtn{
+  background-color: lightgray;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+}
